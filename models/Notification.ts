@@ -14,6 +14,7 @@ import { NotificationAllOf } from './NotificationAllOf';
 import { PlayerNotificationTargetIncludeAliases } from './PlayerNotificationTargetIncludeAliases';
 import { StringMap } from './StringMap';
 import { HttpFile } from '../http/http';
+import { Operator } from './Operator';
 
 export class Notification {
     /**
