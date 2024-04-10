@@ -405,7 +405,7 @@ export class Notification {
     * Channel: SMS URLs for the media files to be attached to the SMS content. Limit: 10 media urls with a total max. size of 5MBs. 
     */
     'sms_media_urls'?: Array<string>;
-    'filters'?: Array<Filter>;
+    'filters'?: Array<Filter|Operator>;
     /**
     * Channel: All JSON object that can be used as a source of message personalization data for fields that support tag variable substitution. Push, SMS: Can accept up to 2048 bytes of valid JSON. Email: Can accept up to 10000 bytes of valid JSON. Example: {\"order_id\": 123, \"currency\": \"USD\", \"amount\": 25} 
     */
